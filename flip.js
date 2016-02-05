@@ -1,7 +1,7 @@
 //Title.
 console.log();
 console.log("----------------------------------");
-console.log("Droidge's 50/50 Coinflip Simulator");
+console.log("JavaScript Coinflip");
 console.log("----------------------------------");
 console.log();
 
