@@ -15,7 +15,6 @@ var flip = 100000;
 //Displays the number of flips in the script.
 console.log("----------------------------------");
 console.log("Number of flips to simulate: "+flip);
-console.log("(Please see coinflip.js to change value)");
 console.log("----------------------------------");
 console.log();
 
