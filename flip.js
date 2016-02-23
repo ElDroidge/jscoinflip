@@ -2,6 +2,7 @@
 console.log();
 console.log("----------------------------------");
 console.log("JS Coinflip");
+console.log("-by Droidge");
 console.log("----------------------------------");
 console.log();
 
