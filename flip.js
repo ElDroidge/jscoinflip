@@ -1,7 +1,7 @@
 //Title.
 console.log();
 console.log("----------------------------------");
-console.log("JavaScript Coinflip");
+console.log("JS Coinflip");
 console.log("----------------------------------");
 console.log();
 
@@ -10,27 +10,32 @@ var heads = 0;
 var tails = 0;
 
 //This is where the user sets the number of flips.
-var flip = 100000;
+var totalFlip = 10000;
+
+//This is the result of each flip.
+var outcome = 0;
 
 //Displays the number of flips in the script.
 console.log("----------------------------------");
-console.log("Number of flips to simulate: "+flip);
+console.log("Number of flips to simulate: "+totalFlip);
 console.log("----------------------------------");
 console.log();
 
 //Loop that calculates the flips. 
-for(outcome = 1; outcome < flip + 1; outcome++) {
+for(flipNo = 1; flipNo < totalFlip + 1; flipNo++) {
 	var coin = Math.random();
-	console.log("Flip #"+outcome+":");
 	
 	//Heads or tails.
 	if(coin < 0.5) {
-		console.log("Heads.");
 		heads == heads++;
+		outcome = "Heads.";
 	} else {
-		console.log("Tails.");
 		tails == tails++;
+		outcome = "Tails.";
 	}
+	
+	//Print result.
+	console.log("Flip #" +flipNo+ ": " +outcome)
 }
 
 //Displays the final result.
